@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div {
+        background-color: aqua;
+        color: blue;
+        border-radius: 100px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    h2 {
+        animation: blinkAndSize 2s ease-in-out infinite;
+    }
+
+    @keyframes blinkAndSize {
+
+        0%,
+        100% {
+            font-size: 22px;
+            opacity: 0.5;
+        }
+
+        50% {
+            font-size: 34px;
+            opacity: 1;
+        }
+    }
+</style>
+
+<body>
+    <div>
+        <h2>Click Me!</h2>
+    </div>
+</body>
+
+</html>

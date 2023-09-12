@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .p {
+            animation-duration: 3s;
+            animation-name: param;
+            animation-iteration-count: infinite;
+            /* animation-direction: alternate; */
+            position: absolute;
+        }
+
+        @keyframes param {
+            0% {
+                left: 0%;
+                top: 0%;
+            }
+
+            25% {
+                left: 54%;
+                top: 0%;
+            }
+
+            50% {
+                left: 54%;
+                top: 54%;
+            }
+
+            75% {
+                left: 0%;
+                top: 53%;
+            }
+
+            99% {
+                left: 0%;
+                top: 0%;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <img class="p"
+        src="https://media.istockphoto.com/id/1368954963/photo/cyber-security-in-two-step-verification-login-user-identification-information-security-and.webp?b=1&s=612x612&w=0&k=20&c=uM_MqNHCYHyNYAJBdZN4PFNwcmE09EVh0aeILGJOlhQ=">
+    <center>
+        <p>This is the first animation text</p><br>
+        <button style='animation: zoom-in-zoom-out 2s ease-in-out infinite alternate-reverse both;'
+            data-filter=".filter-demo" class="btn btn-get-started scrollto" type="submit"><strong>Register for a free
+                demo</strong></button><br>
+
+        <button style="background-color: orange; font-size: larger;">Click ME!</button>
+    </center>
+
+</body>
+
+</html>
