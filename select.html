@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        margin-left: 200px;
+        
+    }
+    input,select{
+        width: 800px;
+        height: 50px;
+        border-radius: 20px;
+        border: solid gray;
+        padding: 10px;
+    }
+    .main-row{
+        display: flex;
+        flex-direction: row;
+    }
+</style>
+<body>
+    <div class="container-fluid">
+        <div class="container">
+        
+            <div class="row">
+                <h1>Leave Type</h1>
+            </div>
+
+            <div class="row">
+                
+                <select style="color: grey; height: 70px;" name="group_name" id="">
+                    <option value="a">Select</option>
+                    <option value="b">B</option>
+                    <option value="c">C</option>
+                    <option value="d">D</option>
+                </select>
+                
+            </div>
+
+            <div class="row">
+                <h1>Range Date</h1>
+            </div>
+
+            <div class="main-row">
+                <div class="col1">
+                    <input style="width: 400px; border-radius: 0px;" type="date" name="" id="" placeholder="Start date">
+                </div>
+
+                <div class="col1">
+                    <input style="width: 400px; border-radius: 0px;" type="date" name="" id="" placeholder="End Date date">
+                </div>
+            </div>
+
+
+            <div class="row">
+                <h1>Manager</h1>
+            </div>
+
+            <div class="row">
+                <input type="text" placeholder="Shivam@gmail.com">
+            </div>
+
+
+            <div class="row">
+                <h1>Enter Resion</h1>
+            </div>
+
+            <div class="row">
+                <textarea style="width: 800px; border-radius: 20px; border: solid gray;
+        padding: 10px;" name="comment" id="" cols="30" rows="10" placeholder="Comment"></textarea>
+            </div>
+            
+
+
+    </div>
+        
+    </div>
+    
+</body>
+</html>
